@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="kk, ru, en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Kanban board</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Your Kanban board</h1>
+        <!-- <div class="add-item"></div> -->
+
+        <div class="board">
+            <!-- TO DO BLOCK -->
+            <div class="block">
+                <h2>To Do list</h2>
+                <hr>
+                <div class="card" draggable="true" id="card1">Do homework</div>
+                <div class="card" draggable="true" id="card2">Write code</div>
+            </div>
+            
+            <!-- PROGRESS BLOCK -->
+            <div class="block">
+                <h2>In Progress</h2>
+                <hr>
+                <div class="card" draggable="true" id="card3">Watch lecture</div>
+            </div>
+            
+            <!-- DONE BLOCK -->
+            <div class="block">
+                <h2>Done</h2>
+                <hr>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
